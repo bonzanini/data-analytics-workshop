@@ -55,7 +55,7 @@ Some tips to get the most out of the workshop:
 - we use ``this format`` inside of a block of text to show that this is code that you may end up running yourself later
 - there are no silly questions, please do ask for help if you get stuck or if something is unclear
 
-Intended Audience
+Intended Audience and Preliminaries
 -----
 
 This workshop is for people who have some basic knowledge of Python and would like to learn more about, or start a career in, data analytics.
