@@ -3,11 +3,14 @@ Data Analytics Workshop for Beginners
 
 This repository contains the material for a half-day workshop on data analytics with Python.
 
+This version of the workshop is presented at `EuroPython 2021 <https://ep2021.europython.eu/talks/77AVB6W-data-analysis-with-pandas-workshop/>`_, if you're attending the live session on July 27th, please make sure to get the material and the setup before joining the session.
+
 In this README document:
 
 - Workshop Overview
 - Intended Audience
-- Installing the Material
+- Installation and Setup
+- Running the material
 
 
 Workshop Overview
@@ -17,7 +20,7 @@ The purpose of this workshop is to introduce the audience to some of the Python 
 
 Outline:
 
-- pandas basics (estimated 60-75 minutes)
+- pandas basics (estimated 45 minutes, demo by the trainer)
 
   - Loading data from CSV files
 
@@ -29,9 +32,9 @@ Outline:
 
   - Sorting values
 
-  - Exercises
+- Exercises on pandas basics (estimated 45 minutes, work on your solutions)
 
-- pandas operations (estimated 60-75 minutes)
+- pandas operations (estimated 45 minutes, demo by the trainer)
 
   - Data aggregation (``groupby()``)
 
@@ -39,24 +42,25 @@ Outline:
 
   - Basics of data visualisation with pandas (``plot()``)
 
-  - Exercises
+- Exercises on pandas operations (estimated 45 minutes, work on your solutions)
 
-- Capstone Project (estimated 75-90 minutes)
+- Outlook on Capstone Project: brief discussion on ideas for personal projects to work on after the workshop
 
 Some tips to get the most out of the workshop:
 
+- please make sure to have a working environment before the session starts
 - if you are new to Jupyter notebook, please have a look at the preliminary material first, in particular the notebook ``Using Jupyter notebooks``
 - make sure you run all the cells that contain code - cells further down may need the results from an earlier cell!
 - if you are confused about what a cell is doing, make sure you read the text above and below it
 - we use ``this format`` inside of a block of text to show that this is code that you may end up running yourself later
-- if you get stuck, do ask people seated around you and ask our coaches for help! There are no stupid questions, and your neighbors are your friends who may also learn from helping you! Along the way, you may also want to figure out what key terms to search for, where to search for it, and how to debug the problem - this will let you develop good intuition for how to search for a solution yourself next time.
+- there are no silly questions, please do ask for help if you get stuck or if something is unclear
 
 Intended Audience
 -----
 
 This workshop is for people who have some basic knowledge of Python and would like to learn more about, or start a career in, data analytics.
 
-The workshop material includes two notebooks of preliminaries, i.e. one on how to use Jupyter notebooks and one on the basic syntax of Python.
+The workshop material includes two notebooks of preliminaries, i.e. one on how to use Jupyter notebooks and one on the basic syntax of Python. They are not part of the workshop, if you are new to Python or Jupyter please go through the preliminaries before the live session to familiarise yourself with some useful concepts.
 
 Installation and Setup
 -----
@@ -70,11 +74,11 @@ Please try to have everything installed before you come to the workshop.
 
 **Install Python and relevant libraries**
 
-We are using Python 3.7, and we will require Jupyter, pandas, and matplotlib
-installed. The recommended way to do this is to get the Python 3.7 version of
+We are using Python 3.8, and we will require Jupyter, pandas, and matplotlib
+installed. The recommended way to do this is to get the latest Python 3 version of
 Anaconda, a Python distribution for data science - this will come with everything installed.
 
-You can download Anaconda Python 3.7 from https://www.anaconda.com/distribution/ (available for Windows, macOS and Linux).
+You can download Anaconda Python 3 from https://www.anaconda.com/products/individual (available for Windows, macOS and Linux).
 
 **Download the workshop material**
 
@@ -82,7 +86,7 @@ If you are familiar with ``git``, you can clone the workshop repository using th
 
 ::
 
-    git clone https://github.com/PyDataLondon/data-analytics-workshop.git
+    git clone https://github.com/bonzanini/data-analytics-workshop.git
 
 Alternatively, you can download a zip file with the content of this repository:
 
