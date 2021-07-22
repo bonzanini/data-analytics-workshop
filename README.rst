@@ -74,7 +74,7 @@ Please try to have everything installed before you come to the workshop.
 
 **Install Python and relevant libraries**
 
-We are using Python 3.8, and we will require Jupyter, pandas, and matplotlib
+We are using Python 3.8+, and we will require Jupyter, pandas, and matplotlib
 installed. The recommended way to do this is to get the latest Python 3 version of
 Anaconda, a Python distribution for data science - this will come with everything installed.
 
@@ -90,7 +90,7 @@ If you are familiar with ``git``, you can clone the workshop repository using th
 
 Alternatively, you can download a zip file with the content of this repository:
 
-- Click on "Clone or download" (on the top-right of this page, see example in image below)
+- Click on "Code" (on the top-right of this page, see example in image below)
 - Click on "Download ZIP"
 - Unzip the file in a folder of your choice
 
