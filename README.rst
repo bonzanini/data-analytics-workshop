@@ -12,7 +12,7 @@ In this README document:
 - Installation and Setup
 - Running the material
 
-If you have troubles setting up the environment, you can also `run this material on Binder <https://mybinder.org/v2/gh/bonzanini/data-analytics-workshop/HEAD>_` without installing anything, the link will spin up a hosted notebook for you to work on.
+If you have troubles setting up the environment, you can also `run this material on Binder <https://mybinder.org/v2/gh/bonzanini/data-analytics-workshop/HEAD>`_ without installing anything, the link will spin up a hosted notebook for you to work on.
 
 Workshop Overview
 -----
